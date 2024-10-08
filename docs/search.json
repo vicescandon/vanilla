@@ -1,0 +1,233 @@
+[
+  {
+    "objectID": "remittances-poverty-mexico-COLMEX.html#motivation",
+    "href": "remittances-poverty-mexico-COLMEX.html#motivation",
+    "title": "The Impact of Remittances on Poverty in Mexico",
+    "section": "Motivation",
+    "text": "Motivation\nRemmittances to Mexico (USD millions)"
+  },
+  {
+    "objectID": "remittances-poverty-mexico-COLMEX.html#motivation-1",
+    "href": "remittances-poverty-mexico-COLMEX.html#motivation-1",
+    "title": "The Impact of Remittances on Poverty in Mexico",
+    "section": "Motivation",
+    "text": "Motivation\n\nIn 2023 LMIC countries received USD 669 billion in remittances. Exceeding FDI by USD 250 billion (Ratha et. al. 2023).\nBetween 2017-2023 Mexico doubled the amount of received remittances, reaching USD 60 billion (2nd largest in the world).\nYet only 5.9% of Mexican households are remittance recipients (representing 24% of their income)."
+  },
+  {
+    "objectID": "remittances-poverty-mexico-COLMEX.html#motivation-2",
+    "href": "remittances-poverty-mexico-COLMEX.html#motivation-2",
+    "title": "The Impact of Remittances on Poverty in Mexico",
+    "section": "Motivation",
+    "text": "Motivation\n\nMigration can be positive in a model à la Harris y Todaro (1970), yet negative if households loose their more productive members.\nEmpirically, people self-select into migration based on observed and unobserved determinants of income (Clemens and Mendola, 2024).\nThe poorest could spend more in consumption goods (following migrant-members’ preferences) rather than investing on education or health (Haushofer et. al. 2013).\nOverall the impact of remittances on poorer households and resource allocation among the poorest is ambiguous."
+  },
+  {
+    "objectID": "remittances-poverty-mexico-COLMEX.html#this-paper",
+    "href": "remittances-poverty-mexico-COLMEX.html#this-paper",
+    "title": "The Impact of Remittances on Poverty in Mexico",
+    "section": "This Paper",
+    "text": "This Paper\n\nWe study whether remittances impact (extreme) poverty status for individuals in recipient households.\nWe test if there is a change in households’ patterns of expenses on assets/goods, and the use of consumption credit.\nWe build a novel data set including information from ENIGH, EMIF, and ACS-IPUMS (2012-2020)\nWe implement a shift-share mapping US state-by-industry employment for Mexicans (the shifts) into Mexican municipalities using Mexican workers’ patters of migration (the shares)."
+  },
+  {
+    "objectID": "remittances-poverty-mexico-COLMEX.html#what-do-we-know",
+    "href": "remittances-poverty-mexico-COLMEX.html#what-do-we-know",
+    "title": "The Impact of Remittances on Poverty in Mexico",
+    "section": "What do we know?",
+    "text": "What do we know?\n\nEarly research correlate remittances with poverty using cross-country panels (Acosta et.al, 2007).\nMacro literature has aimed to correct selection, finding reductions in poverty of 5% among recipient households (Chea, 2023).\nOur paper relates to Nuñez et. al., (2021) for Mexico and Central America. The authors use distance to the US as instrument.\n\nA 10% increase in remittances translates into a 1.2% reduction in poverty (USD 1.90 a day).\n\nWe differentiate by exploiting a plausibly exogenous variation, and by linking this to Mexican poverty measures at the individual-household level."
+  },
+  {
+    "objectID": "remittances-poverty-mexico-COLMEX.html#what-do-we-learn",
+    "href": "remittances-poverty-mexico-COLMEX.html#what-do-we-learn",
+    "title": "The Impact of Remittances on Poverty in Mexico",
+    "section": "What do we learn?",
+    "text": "What do we learn?\n\nOur results suggest a reduction of poverty for individuals living in remittance recipient households.\nThe effects are of important magnitude for extreme income poverty, reducing the probability of experiencing it by 33%.\nWe also document reductions on the probability of multidimensional (extreme) poverty.\nMonthly expenses on health five fold (from USD 20).\nHousing expenses triple (from USD 50). This is consistent with multidimensional poverty reduction."
+  },
+  {
+    "objectID": "remittances-poverty-mexico-COLMEX.html#structural-equation",
+    "href": "remittances-poverty-mexico-COLMEX.html#structural-equation",
+    "title": "The Impact of Remittances on Poverty in Mexico",
+    "section": "Structural Equation",
+    "text": "Structural Equation\n\nThe equation to be estimated:\n\n\\[y_{ihm}=\\alpha + \\beta R_{hm} + \\sum_h x_{ih}'\\gamma_h + \\varepsilon_{ihm}\\]\n\n\\(y_{ihm}\\) indicates if individual \\(i\\) in household \\(h\\) is in poverty\nExpenses are measured at the \\(h-level\\)\n\\(R_{hm}\\) is endogenous, so we instrument."
+  },
+  {
+    "objectID": "remittances-poverty-mexico-COLMEX.html#shift-share-instrument",
+    "href": "remittances-poverty-mexico-COLMEX.html#shift-share-instrument",
+    "title": "The Impact of Remittances on Poverty in Mexico",
+    "section": "Shift-share Instrument",
+    "text": "Shift-share Instrument\n\nWe instrument \\(R_{hm}\\) using a measure of the exposure of household \\(h\\) to economic shocks in the US.\nFor municipality \\(m\\) in Mexico, tracks changes in employment across US state-industries weighted by migration flows from \\(m\\) to each US state \\(s\\): \\[\n\\begin{aligned}\nz_{m}=\\sum_{s} \\frac{M_{ms, t=2012-2017}}{M_{m, t=2012-2017}} \\left(\\sum_k p_{ks}\\Delta_{2019-2020} E_{ks}\\right)\n\\end{aligned}\n\\]\nThis follows the recent literature by Borusyak, Hull & Jaravel, (2020) and Goldsmith-Pinkham & Sorkin (2020) formalizing the shift-share strategy."
+  },
+  {
+    "objectID": "remittances-poverty-mexico-COLMEX.html#shift-share-instrument-1",
+    "href": "remittances-poverty-mexico-COLMEX.html#shift-share-instrument-1",
+    "title": "The Impact of Remittances on Poverty in Mexico",
+    "section": "Shift-share Instrument",
+    "text": "Shift-share Instrument\n\\[\n\\begin{aligned}\nz_{m}=\\sum_{s} \\frac{M_{ms, t=2012-2017}}{M_{m, t=2012-2017}} \\left(\\sum_k p_{ks}\\Delta_{2019-2020} E_{ks}\\right)\n\\end{aligned}\n\\]\n\n\\(M_{ms}\\) is the number of migrants from Mexican municipality \\(m\\) to the US State \\(s\\) in 2012-2017\n\\(M_m\\) are total migrants in municipality \\(m\\) to the US.\n\\(\\Delta E_{ks}\\) is the change in employment in industry \\(k\\) in US state \\(s\\) in 2019-2020.\n\\(p_{ks}\\) is the share of mexicans working in industry \\(k\\) in state \\(s\\).\nAn alternative version of \\(z_m\\) defines shifts as \\(shift_s=\\sum_k\\Delta_{2019-2020} E_{ks}\\)"
+  },
+  {
+    "objectID": "remittances-poverty-mexico-COLMEX.html#identification",
+    "href": "remittances-poverty-mexico-COLMEX.html#identification",
+    "title": "The Impact of Remittances on Poverty in Mexico",
+    "section": "Identification",
+    "text": "Identification\n\nAssumption is that employment shocks in US are exogenous to Mexican households and were unanticipated for migrants and/or migrants were unable to reallocate during COVID-19 crises.\nUS Employment shocks impose further restrictions on the income of remittance-recipient households in Mexico.\nHouseholds’ level of exposure varies depending on the level of historical relations that each municipality \\(m\\) has with specific states \\(s\\) -industry \\(k\\) in US."
+  },
+  {
+    "objectID": "remittances-poverty-mexico-COLMEX.html#shifts",
+    "href": "remittances-poverty-mexico-COLMEX.html#shifts",
+    "title": "The Impact of Remittances on Poverty in Mexico",
+    "section": "Shifts",
+    "text": "Shifts\n\nWe use the US Census and American Community Survey for employment in industry \\(k\\)1 by state \\(s\\) in the US.\nThis data also allow us to compute the share of mexicans in each US industry \\(k\\) and state \\(s\\).\nWe use sample weights.\n\nOur \\(k\\) industries are: Agriculture, Mining, Public Services, Construction, Manufacture, Trade, Retail, Transport, Information, Finance, Real Estate, Personal Services, Administrative Services, HHRR, Education, Health, Recreation, Hospitality, and Other services."
+  },
+  {
+    "objectID": "remittances-poverty-mexico-COLMEX.html#employment-changes-in-the-us",
+    "href": "remittances-poverty-mexico-COLMEX.html#employment-changes-in-the-us",
+    "title": "The Impact of Remittances on Poverty in Mexico",
+    "section": "Employment Changes in the US",
+    "text": "Employment Changes in the US\n\nDifferentiated shocks across US States.\nTraditional destination US states for Mexicans had varying changs in employment."
+  },
+  {
+    "objectID": "remittances-poverty-mexico-COLMEX.html#employment-changes-by-state-in-selected-industries.",
+    "href": "remittances-poverty-mexico-COLMEX.html#employment-changes-by-state-in-selected-industries.",
+    "title": "The Impact of Remittances on Poverty in Mexico",
+    "section": "Employment changes by state in selected industries.",
+    "text": "Employment changes by state in selected industries."
+  },
+  {
+    "objectID": "remittances-poverty-mexico-COLMEX.html#share-of-mexicans-by-industry",
+    "href": "remittances-poverty-mexico-COLMEX.html#share-of-mexicans-by-industry",
+    "title": "The Impact of Remittances on Poverty in Mexico",
+    "section": "Share of Mexicans by industry",
+    "text": "Share of Mexicans by industry"
+  },
+  {
+    "objectID": "remittances-poverty-mexico-COLMEX.html#employment-changes-by-industry-in-selected-states.",
+    "href": "remittances-poverty-mexico-COLMEX.html#employment-changes-by-industry-in-selected-states.",
+    "title": "The Impact of Remittances on Poverty in Mexico",
+    "section": "Employment changes by industry in selected states.",
+    "text": "Employment changes by industry in selected states."
+  },
+  {
+    "objectID": "remittances-poverty-mexico-COLMEX.html#shares",
+    "href": "remittances-poverty-mexico-COLMEX.html#shares",
+    "title": "The Impact of Remittances on Poverty in Mexico",
+    "section": "Shares",
+    "text": "Shares\n\nWe use the Northern Border Survey (EMIF-COLEF: 2012-2017)\nCaptures migration in crossing points to the US. We use self-declared trips for work.\nIt registers orig municipality and US state destination.\nWe use survey weights."
+  },
+  {
+    "objectID": "remittances-poverty-mexico-COLMEX.html#us-states-destination",
+    "href": "remittances-poverty-mexico-COLMEX.html#us-states-destination",
+    "title": "The Impact of Remittances on Poverty in Mexico",
+    "section": "US States destination",
+    "text": "US States destination"
+  },
+  {
+    "objectID": "remittances-poverty-mexico-COLMEX.html#weights-vary-at-the-muncipality-level",
+    "href": "remittances-poverty-mexico-COLMEX.html#weights-vary-at-the-muncipality-level",
+    "title": "The Impact of Remittances on Poverty in Mexico",
+    "section": "Weights vary at the muncipality level",
+    "text": "Weights vary at the muncipality level"
+  },
+  {
+    "objectID": "remittances-poverty-mexico-COLMEX.html#states-destination-and-origin-municipality",
+    "href": "remittances-poverty-mexico-COLMEX.html#states-destination-and-origin-municipality",
+    "title": "The Impact of Remittances on Poverty in Mexico",
+    "section": "States destination and origin municipality",
+    "text": "States destination and origin municipality"
+  },
+  {
+    "objectID": "remittances-poverty-mexico-COLMEX.html#shift-share",
+    "href": "remittances-poverty-mexico-COLMEX.html#shift-share",
+    "title": "The Impact of Remittances on Poverty in Mexico",
+    "section": "Shift-share",
+    "text": "Shift-share\n\nOur instrument captures varying shocks for “similar” municipalities."
+  },
+  {
+    "objectID": "remittances-poverty-mexico-COLMEX.html#remittances-and-poverty",
+    "href": "remittances-poverty-mexico-COLMEX.html#remittances-and-poverty",
+    "title": "The Impact of Remittances on Poverty in Mexico",
+    "section": "Remittances and Poverty",
+    "text": "Remittances and Poverty\n\nWe use the National Survey on Income and Expenses (ENIGH 2020)\nIdentifies remittance recipient households.\nExpenses on education, health, food, and debts among others.\nWe can measure (multidimensional and extreme) poverty according to CONEVAL’s definitions."
+  },
+  {
+    "objectID": "remittances-poverty-mexico-COLMEX.html#remittances",
+    "href": "remittances-poverty-mexico-COLMEX.html#remittances",
+    "title": "The Impact of Remittances on Poverty in Mexico",
+    "section": "Remittances",
+    "text": "Remittances\n\nOverall 5.9% of households are remittance recipients"
+  },
+  {
+    "objectID": "remittances-poverty-mexico-COLMEX.html#first-stage",
+    "href": "remittances-poverty-mexico-COLMEX.html#first-stage",
+    "title": "The Impact of Remittances on Poverty in Mexico",
+    "section": "First Stage",
+    "text": "First Stage\n\nOur shift-share is negatively related with the probability of receiving remittances (due to increase in unemployment).\nWe estimate:\n\n\\[R_{hm}=\\rho + \\delta \\text{shift-share}_{m} + \\sum_h x_{ih}'\\pi_i + u_{hm}\\]\n\nOur main specification includes a set of controls \\(x_{ih}\\)1\n\nControls are: households’ head age and its square, members, proportion under age 11, proportion above age 65, proportion of women, a rural indicator, head’s education fixed-effects, municipality population in 2020 and state fixed-effects."
+  },
+  {
+    "objectID": "remittances-poverty-mexico-COLMEX.html#first-stage-1",
+    "href": "remittances-poverty-mexico-COLMEX.html#first-stage-1",
+    "title": "The Impact of Remittances on Poverty in Mexico",
+    "section": "First Stage",
+    "text": "First Stage"
+  },
+  {
+    "objectID": "remittances-poverty-mexico-COLMEX.html#first-stage-by-migration-intensity",
+    "href": "remittances-poverty-mexico-COLMEX.html#first-stage-by-migration-intensity",
+    "title": "The Impact of Remittances on Poverty in Mexico",
+    "section": "First Stage by migration intensity",
+    "text": "First Stage by migration intensity"
+  },
+  {
+    "objectID": "remittances-poverty-mexico-COLMEX.html#effects-on-poverty",
+    "href": "remittances-poverty-mexico-COLMEX.html#effects-on-poverty",
+    "title": "The Impact of Remittances on Poverty in Mexico",
+    "section": "Effects on Poverty",
+    "text": "Effects on Poverty"
+  },
+  {
+    "objectID": "remittances-poverty-mexico-COLMEX.html#effects-on-expenses",
+    "href": "remittances-poverty-mexico-COLMEX.html#effects-on-expenses",
+    "title": "The Impact of Remittances on Poverty in Mexico",
+    "section": "Effects on Expenses",
+    "text": "Effects on Expenses"
+  },
+  {
+    "objectID": "remittances-poverty-mexico-COLMEX.html#effects-on-durables",
+    "href": "remittances-poverty-mexico-COLMEX.html#effects-on-durables",
+    "title": "The Impact of Remittances on Poverty in Mexico",
+    "section": "Effects on durables",
+    "text": "Effects on durables"
+  },
+  {
+    "objectID": "remittances-poverty-mexico-COLMEX.html#unweighted-shifts-poverty",
+    "href": "remittances-poverty-mexico-COLMEX.html#unweighted-shifts-poverty",
+    "title": "The Impact of Remittances on Poverty in Mexico",
+    "section": "Unweighted Shifts: Poverty",
+    "text": "Unweighted Shifts: Poverty\n\nAs a test of exogeneity we use employment changes w/o shares of Mexicans in \\(s\\) and \\(k\\)."
+  },
+  {
+    "objectID": "remittances-poverty-mexico-COLMEX.html#unweighted-shifts-expenses",
+    "href": "remittances-poverty-mexico-COLMEX.html#unweighted-shifts-expenses",
+    "title": "The Impact of Remittances on Poverty in Mexico",
+    "section": "Unweighted Shifts: Expenses",
+    "text": "Unweighted Shifts: Expenses"
+  },
+  {
+    "objectID": "remittances-poverty-mexico-COLMEX.html#shares-using-consular-registries",
+    "href": "remittances-poverty-mexico-COLMEX.html#shares-using-consular-registries",
+    "title": "The Impact of Remittances on Poverty in Mexico",
+    "section": "Shares using consular registries",
+    "text": "Shares using consular registries\n\n“US’ destination shares in EMIF and consular registries”"
+  },
+  {
+    "objectID": "remittances-poverty-mexico-COLMEX.html#shares-using-consular-registries-poverty",
+    "href": "remittances-poverty-mexico-COLMEX.html#shares-using-consular-registries-poverty",
+    "title": "The Impact of Remittances on Poverty in Mexico",
+    "section": "Shares using consular registries: Poverty",
+    "text": "Shares using consular registries: Poverty"
+  },
+  {
+    "objectID": "remittances-poverty-mexico-COLMEX.html#conclusions-1",
+    "href": "remittances-poverty-mexico-COLMEX.html#conclusions-1",
+    "title": "The Impact of Remittances on Poverty in Mexico",
+    "section": "Conclusions",
+    "text": "Conclusions\n\nWe find a ~50% lower probability of experiencing multidimensional poverty.\nAnd a 25% to 33% lower chance in the case of income and extreme income poverty.\nRecipient Households spend more on health and housing. Consistent with poverty reduction.\nConsumption credit rises along with “durables” consumption (TVs, Car and Stoves).\nLong term poverty could be reduced through housing and health, yet no effects on education.\nShort term affected by higher consumption on “durables”/debt."
+  }
+]
